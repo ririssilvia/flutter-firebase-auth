@@ -37,4 +37,4 @@ flutter pub add flutterfire_ui
 ![Screenshoot firebase](images/5.png)
 ![Screenshoot firebase](images/6.png)
 ### Layar Profil
-![Screenshoot firebase](images/7png)
+![Screenshoot firebase](images/7.png)
