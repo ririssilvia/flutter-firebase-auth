@@ -2,15 +2,39 @@
 
 A new Flutter project.
 
-## Getting Started
+### Buat dan siapkan proyek Firebase
+Di Firebase console, klik Tambahkan Proyek (atau Buat proyek ), dan masukkan nama untuk proyek Firebase Anda (misalnya, " FlutterFire-UI-Codelab ").
+![Screenshoot firebase](images/1.png)
+![Screenshoot firebase](images/2.png)
 
-This project is a starting point for a Flutter application.
+### Mendapatkan kode sampel
+Kloning repositori GitHub 
+```
+git clone https://github.com/flutter/codelabs.git 
+```
+### Instal FlutterFire CLI
+```
+dart pub global activate flutterfire_cli
+```
 
-A few resources to get you started if this is your first Flutter project:
+### Tambahkan proyek Firebase Anda ke aplikasi Flutter Anda
+Setelah selesai, lihat aplikasi Flutter di editor teks Anda. FlutterFire CLI telah membuat file baru bernama firebase_options.dart
+```
+flutterfire configure
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Tambahkan paket Firebase ke aplikasi Flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter pub add firebase_core
+flutter pub add firebase_auth
+flutter pub add flutterfire_ui
+```
+
+### Tampilan Layar masuk 
+![Screenshoot firebase](images/4.png)
+![Screenshoot firebase](images/3.png)
+![Screenshoot firebase](images/5.png)
+![Screenshoot firebase](images/6.png)
+### Layar Profil
+![Screenshoot firebase](images/.7png)
